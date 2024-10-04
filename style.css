@@ -7,11 +7,11 @@
   --dark-body-color: hsl(var(--hue-color), 28%, 12%);
 
   --first-color: hsl(var(--hue-color), 69%, 61%);
-  --first-color-second: hsl(var(--hue-color), 69%, 61%);
+  --first-color-second: hsl(var(--hue-color), 75%, 85%);
   --first-color-alt: hsl(var(--hue-color), 57%, 43%);
   --first-color-lighter: hsl(var(--hue-color), 80%, 45%);
 
-  --dark-first-color-second: hsl(var(--hue-color), 60%, 20%);
+  --dark-first-color-second: hsl(var(--hue-color), 40%, 15%);
   --dark-first-color-lighter: hsl(var(--hue-color), 92%, 85%);
 }
 
