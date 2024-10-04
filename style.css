@@ -1,0 +1,94 @@
+/* GOOGLE FONTS */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+:root {
+  --hue-color: 220;
+
+  --first-color: hsl(var(--hue-color), 69%, 61%);
+  --first-color-second: hsl(var(--hue-color), 69%, 61%);
+  --first-color-alt: hsl(var(--hue-color), 57%, 43%);
+  --first-color-lighter: hsl(var(--hue-color), 80%, 45%);
+
+  --dark-first-color-second: hsl(var(--hue-color), 30%, 8%);
+  --dark-first-color-lighter: hsl(var(--hue-color), 92%, 85%);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #f4f4f4;
+  padding: 20px;
+}
+
+h1,
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.color-container {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 30px;
+}
+
+.color-block {
+  text-align: center;
+}
+
+.color {
+  width: 150px;
+  height: 150px;
+  margin-bottom: 10px;
+  border: 2px solid #ccc;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Main colors */
+#first-color {
+  background-color: var(--first-color);
+}
+
+#first-color-second {
+  background-color: var(--first-color-second);
+}
+
+#first-color-alt {
+  background-color: var(--first-color-alt);
+}
+
+#first-color-lighter {
+  background-color: var(--first-color-lighter);
+}
+
+.variant-container {
+  background-color: black; /* Dark background for the variant section */
+  padding: 50px; /* Add padding to the variant section */
+  border-radius: 8px; /* Rounded corners for the variant section */
+}
+
+.variant-block {
+  color: #fff; /* White text color for better contrast on dark background */
+}
+
+/* Variants */
+#dark-first-color {
+  background-color: var(--first-color);
+}
+
+#dark-first-color-second {
+  background-color: var(--dark-first-color-second);
+}
+
+#dark-first-color-alt {
+  background-color: var(--first-color-alt);
+}
+
+#dark-first-color-lighter {
+  background-color: var(--dark-first-color-lighter);
+}
