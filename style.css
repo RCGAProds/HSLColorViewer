@@ -23,7 +23,7 @@
 
 body {
   font-family: 'Poppins', sans-serif;
-  background-color: #f4f4f4;
+  background-color: var(--body-color);
   padding: 20px;
 }
 
@@ -70,7 +70,9 @@ h2 {
 }
 
 .variant-container {
-  background-color: black; /* Dark background for the variant section */
+  background-color: var(
+    --dark-body-color
+  ); /* Dark background for the variant section */
   padding: 50px; /* Add padding to the variant section */
   border-radius: 8px; /* Rounded corners for the variant section */
 }
