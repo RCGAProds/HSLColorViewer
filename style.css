@@ -3,6 +3,9 @@
 :root {
   --hue-color: 220;
 
+  --body-color: hsl(var(--hue-color), 60%, 99%);
+  --dark-body-color: hsl(var(--hue-color), 28%, 12%);
+
   --first-color: hsl(var(--hue-color), 69%, 61%);
   --first-color-second: hsl(var(--hue-color), 69%, 61%);
   --first-color-alt: hsl(var(--hue-color), 57%, 43%);
